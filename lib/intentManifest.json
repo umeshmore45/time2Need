@@ -1,0 +1,60 @@
+{
+  "site": {
+    "sampleSize": 0,
+    "intents": [
+      {
+        "id": "donar",
+        "signals": [
+          {
+            "type": "QS",
+            "freq": "always",
+            "scope": "visitor",
+            "str": 50,
+            "value": {
+              "cs": false,
+              "expr": "donar",
+              "type": "exact"
+            },
+            "parameter": "user"
+          }
+        ]
+      },
+      {
+        "id": "volunteer",
+        "signals": [
+          {
+            "type": "QS",
+            "freq": "always",
+            "scope": "visitor",
+            "str": 50,
+            "value": {
+              "cs": false,
+              "expr": "volunteer",
+              "type": "exact"
+            },
+            "parameter": "user"
+          }
+        ]
+      },
+      {
+        "id": "counselor",
+        "signals": [
+          {
+            "type": "QS",
+            "freq": "always",
+            "scope": "visitor",
+            "str": 50,
+            "value": {
+              "cs": false,
+              "expr": "counselor",
+              "type": "exact"
+            },
+            "parameter": "user"
+          }
+        ]
+      }
+    ],
+    "enrichments": [],
+    "tests": []
+  }
+}
